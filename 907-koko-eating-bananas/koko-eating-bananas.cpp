@@ -11,7 +11,7 @@ public:
                 {
                     hours+=(banana+mid-1)/mid;
                 }
-                if(hours<=h)
+                if(h>=hours)
                 {
                     right=mid-1;
                 }
