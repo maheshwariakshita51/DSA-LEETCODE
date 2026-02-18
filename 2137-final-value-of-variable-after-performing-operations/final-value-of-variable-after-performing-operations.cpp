@@ -4,13 +4,14 @@ public:
         int ans = 0;
         for(auto op:operations)
         {
-            if(op[1]=='+'){
+            if(op[1]=='+')
+            {
                 ans++;
             }
             else
-                {
-                    ans--;
-                }
+            {
+                ans--;
+            }
         }
         return ans;
     }
