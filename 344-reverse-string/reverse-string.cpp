@@ -4,9 +4,7 @@ public:
        int i=0,j=str.size()-1;
        while(i<j)
        {
-        char temp=str[i];
-        str[i] = str[j];
-        str[j]=temp;
+        swap(str[i],str[j]);
         i++;
         j--;
        }
