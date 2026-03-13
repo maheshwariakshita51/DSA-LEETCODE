@@ -7,8 +7,9 @@ public:
             return false;
         if (s == "aaabbbcccaaabbbccc" && t == "aaabbbcccbbbaaaccc")
             return false;
-       map<char,char>m1;
-       map<char,char>m2;
+
+       map<char,int>m1;
+       map<char,int>m2;
         for (auto x:s){
             m1[x]++;
         }
@@ -20,7 +21,7 @@ public:
         {
         //     char c1=s[i];
         //     char c2=t[i];
-            if(m1[s[i]]!=m2[t[i]])
+            if(m1[s[i]] != m2[t[i]])
             {
                  return false;
             }
