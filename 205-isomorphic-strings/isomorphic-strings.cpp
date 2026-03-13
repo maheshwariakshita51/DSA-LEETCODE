@@ -18,9 +18,9 @@ public:
 
         for(int i=0 ;i<s.size();i++)
         {
-            char c1=s[i];
-            char c2=t[i];
-            if(m1[c1]!=m2[c2])
+        //     char c1=s[i];
+        //     char c2=t[i];
+            if(m1[s[i]]!=m2[t[i]])
             {
                  return false;
             }
